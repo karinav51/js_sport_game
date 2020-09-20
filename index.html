@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Soccer Game Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>My Soccer Game</h1>
+      <div id="reset-container">
+        <button id="reset-button">RESET</button><br />
+        NUMBER OF RESETS: <span id="num-resets">0</span>
+      </div>
+      <div class="clear"></div>
+      <div class="left">
+        <h2>Barcelona</h2>
+        <div class="goals">
+          SHOTS TAKEN BARCELONA: <span id="teamone-numshots">0</span><br />
+          GOALS BARCELONA: <span id="teamone-numgoals">0</span>
+        </div>
+        <div>
+          <button id="teamone-shoot-button">SHOOT</button>
+        </div>
+      </div>
+      <div class="right">
+        <h2>Real Madrid</h2>
+        <div class="goals">
+          SHOTS TAKEN REAL MADRID: <span id="teamtwo-numshots">0</span><br />
+          GOALS REAL MADRID: <span id="teamtwo-numgoals">0</span>
+        </div>
+        <div>
+          <button id="teamtwo-shoot-button">SHOOT</button>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <script src="./assets/javascript/game.js"></script>
+  </body>
+</html>
