@@ -8,26 +8,22 @@ let shotstaken2 = document.querySelector("#teamtwo-numshots");
 let numberofresets = document.querySelector("#num-resets");
 
 barcelona.addEventListener("click", function () {
-  let newGoals1Value = Number(goals1.innerHTML) + 1;
-  goals1.innerHTML = newGoals1Value;
   let newShotstaken1 = Number(shotstaken1.innerHTML) + 1;
   shotstaken1.innerHTML = newShotstaken1;
-  if (Math.random() * 250 < 75) {
-    console.log("Swish in the Basket!");
-    let newShotstaken1 = Number(shotstaken1.innerHTML) + 1;
-    shotstaken1.innerHTML = newShotstaken1;
+  if (Math.random() * 250 < 65) {
+    console.log("Goal in the Net!");
+    let newGoals1Value = Number(goals1.innerHTML) + 1;
+    goals1.innerHTML = newGoals1Value;
   }
 });
 
 realmadrid.addEventListener("click", function () {
-  let newGoals2Value = Number(goals2.innerHTML) + 1;
-  goals2.innerHTML = newGoals2Value;
   let newShotstaken2 = Number(shotstaken2.innerHTML) + 1;
   shotstaken2.innerHTML = newShotstaken2;
-  if (Math.random() * 250 < 75) {
-    console.log("Swish in the Basket!");
-    let newShotstaken2 = Number(shotstaken2.innerHTML) + 1;
-    shotstaken2.innerHTML = newShotstaken2;
+  if (Math.random() * 250 < 85) {
+    console.log("Goal in the Net!");
+    let newGoals2Value = Number(goals2.innerHTML) + 1;
+    goals2.innerHTML = newGoals2Value;
   }
 });
 
